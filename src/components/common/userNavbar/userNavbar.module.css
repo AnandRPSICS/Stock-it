@@ -1,8 +1,24 @@
 .navContainer {
   background-color: #111827;
+  color: white;
+  height: 70px;
+}
+.navContainer h3 {
+  cursor: pointer;
+  font-size: 24px;
 }
 
-.navContainer h1 {
-  margin: 0;
-  padding: 0;
+.navContainer ul {
+  width: 13rem;
+}
+.navContainer ul li {
+  cursor: pointer;
+}
+
+.navRegisterContainer {
+  width: 10rem;
+}
+.navRegisterContainer button {
+  color: white;
+  background-color: #4b5563;
 }
